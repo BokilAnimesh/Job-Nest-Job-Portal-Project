@@ -5,14 +5,15 @@ JobNest is a modern and easy-to-use job portal that connects job seekers with em
 **HOW TO RUN THE PROJECT:**
 
 **1. Prerequisites**
+
 Ensure the following are installed on your system:
-•
+
 Node.js (v18.x or later)
-•
+
 npm
-•
+
 MongoDB (local or Atlas)
-•
+
 Cloudinary
 
 
@@ -20,18 +21,24 @@ Cloudinary
 
 **1.
 Install dependencies:**
+
 npm install
 
 **2.
 Configure environment variables:**
+
 Create a .env file in the server/ directory with the following:
 PORT=5000
+
 MONGO_URI=your_mongodb_connection_string
+
 JWT_SECRET=your_jwt_secret
 
 **3.
 Start the backend server:**
+
 npm run dev
+
 The server will run on http://localhost:5000
 
 **3. Frontend Setup (React + Vite)**
